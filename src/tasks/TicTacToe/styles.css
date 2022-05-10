@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: rgb(55, 56, 55);
+  color: white;
+  align-items: center;
+}
+.header-text {
+  font-size: 45px;
+  color: white;
+  font-weight: bold;
+  margin: 50px;
+}
+.row {
+  display: flex;
+}
+.fc-red {
+  color: rgb(237, 85, 85);
+}
+.fc-yellow {
+  color: rgb(224, 224, 11);
+}
+
+.square {
+  min-width: 90px;
+  min-height: 90px;
+  color:greenyellow;
+  font-size:60px;
+  font-weight:bold;
+  text-align: center;
+  padding: 5px;
+}
