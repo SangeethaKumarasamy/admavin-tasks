@@ -1,10 +1,11 @@
-import './App.css';
-import Tictactoe from "./tasks/TicTacToe/Tictactoe";
+import React from "react";
+import "./App.css";
+import TicTacToe from "./tasks/TicTacToe/TicTacToe";
 
 function App() {
   return (
     <div className="App">
-    <Tictactoe/>
+      <TicTacToe />
     </div>
   );
 }
