@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Square from "./Square";
 import EndGame from "./EndGame";
+import "./tictactoe.css";
 
 const INITIAL = "";
 const X_PLAYER = "X";
@@ -94,10 +95,13 @@ function TicTacToe() {
 
   return (
     <div>
+      <h1 className="head">Tic Tac Toe</h1>
+      <br />
+      <br />
       <span className="win-history">
-        X's WINS: {winCount.X}
+        X's Wins: {winCount.X}
         <br />
-        O's WINS: {winCount.O}
+        O's Wins: {winCount.O}
       </span>
       {gameFinished && (
         <EndGame

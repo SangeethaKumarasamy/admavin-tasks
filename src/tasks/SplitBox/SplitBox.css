@@ -1,0 +1,67 @@
+.SplitBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .box-board {
+    height: 35vw;
+    width: 35vw;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid black;
+  }
+  .Create-Box {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .small-box {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .right-line {
+    border-right: 0.5px solid black;
+  }
+  .bottom-line {
+    border-bottom: 0.5px solid black;
+  }
+  
+  @media screen and (max-width: 1026px) {
+    .SplitBox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 30px;
+    }
+    .box-board {
+      height: 60vw;
+      width: 60vw;
+      margin: 0px;
+      padding: 0px;
+      border: 1px solid black;
+    }
+  }
+  
+  @media screen and (max-width: 426px) {
+    .SplitBox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 30px;
+    }
+    .box-board {
+      height: 80vw;
+      width: 80vw;
+      margin: 0px;
+      padding: 0px;
+      border: 1px solid black;
+    }
+  }

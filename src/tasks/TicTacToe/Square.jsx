@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./tictactoe.css";
 function Square({ clickedArray, handleClick }) {
   return (
     <div className="board">

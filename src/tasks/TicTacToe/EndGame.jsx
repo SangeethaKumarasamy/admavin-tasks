@@ -1,22 +1,27 @@
 import React from "react";
+import "./tictactoe.css";
 
 function EndGame({ clearHistory, winCount, restartGame, player, draw }) {
   return (
     <div className="end-game-screen">
-      {!draw && <span className="win-text">{player ? "O WON" : "X WON"}</span>}
-      {draw && <span className="win-text">DRAW GAME</span>}
+      {!draw && (
+        <span className="win-text">
+          {player ? "Player-O Won The Game" : "Player-X Won The Game"}
+        </span>
+      )}
+      {draw && <span className="win-text">Game Draw</span>}
 
       <span className="win-history">
-        X's WINS: {winCount.X}
+        X's Wins: {winCount.X}
         <br />
-        O's WINS: {winCount.O}
+        O's Wins: {winCount.O}
       </span>
 
       <button className="btn" onClick={restartGame}>
-        RESTART GAME
+        Play Again
       </button>
       <button className="btn" onClick={clearHistory}>
-        CLEAR HISTORY
+        Clear History
       </button>
     </div>
   );
