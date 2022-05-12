@@ -1,0 +1,35 @@
+.tree-reply {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 800px;
+    min-height: 100vh;
+    margin: auto;
+    background-color:  white;
+    padding: 50px;
+  }
+  .reply-messages {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 20px;
+    gap: 5px;
+  }
+  .hello-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 5px;
+  }
+  .hello-content > p {
+    margin: 0px 0px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: greenyellow;
+  }
+  Button {
+    font-size: 11px !important;
+    background-color: grey !important;
+    color: white !important;
+  }
